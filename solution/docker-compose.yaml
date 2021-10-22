@@ -4,7 +4,7 @@ services:
     image: infracloudio/csvserver:latest
     volumes:
       - type: bind
-        source: /Users/mayank.srivastava/Desktop/My_Stuffs/DevOps_Stuffs/Shell/inputFile
+        source: ./inputFile
         target: /csvserver/inputdata
     ports:
     - "9393:9300"
