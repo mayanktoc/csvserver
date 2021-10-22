@@ -21,4 +21,9 @@
 
 1: Stop running container by "docker ps -a" and "docker stop [container id]" commands
 
-2: 
+2: Create docker-compose.yaml with image, volume bind mapping, port mapping, and environment variable value.
+
+3: Run "docker compose up" command.
+
+4: Get running container id by running "docker ps -a" and stop it by "docker stop [container id]".
+
