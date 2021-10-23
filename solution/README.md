@@ -19,11 +19,25 @@
 
 ## Part 2
 
-1: Stop running container by "docker ps -a" and "docker stop [container id]" commands
+1: Stop running container by "docker ps -a" and "docker stop [container id]" commands.
 
 2: Create docker-compose.yaml with image, volume bind mapping, port mapping, and environment variable value.
 
 3: Run "docker compose up" command.
 
 4: Get running container id by running "docker ps -a" and stop it by "docker stop [container id]".
+
+## Part 3
+
+1: Stop running container by "docker ps -a" and "docker stop [container id]" commands.
+
+2: Add prometheus folder under 'solution' directory.
+
+3: Add prometheus.yml file under 'prometheus' directory and configure application metrices with promotheus.
+
+4: Add Prometheus image with config yml file in docker compose file.
+
+5: Run "docker compose up" command to make services up and running.
+
+6: Type csvserver_records in the query box of Prometheus. Click on Execute and then switch to the Graph tab to view the graph.
 
